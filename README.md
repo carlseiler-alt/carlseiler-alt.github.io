@@ -1,2 +1,336 @@
-# carlseiler-alt.github.io
-Carl Seiler's Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carl Seiler Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #222;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem 0 1rem 0;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 3px;
+    }
+    header p {
+      margin: .5rem 0 0;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    section {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-left: 4px solid #3366cc;
+      padding-left: .5em;
+      margin-top: 2.5em;
+      color: #3366cc;
+      font-size: 1.6rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      padding: 1rem 1rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover {
+      box-shadow: 0 4px 24px rgba(51,102,204,0.10);
+    }
+    .card iframe, .card .video-link {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      background: #eee;
+    }
+    .card .video-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eee;
+      color: #3366cc;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 1.1em;
+      min-height: 180px;
+    }
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+    .card-role {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .card-year {
+      font-size: 0.92rem;
+      color: #888;
+      margin-bottom: .3rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      .grid { gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Carl Seiler</h1>
+    <p>Portfolio of Film, Video & Audio Work</p>
+  </header>
+  <section>
+    <h2>Notable Works</h2>
+
+    <!-- 2024 -->
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">God placed us here for such a time as this!</div>
+        <span class="card-year">2024</span>
+        <iframe src="https://www.youtube.com/embed/SwgCuW86BGg" allowfullscreen></iframe>
+        <div class="card-role">Role: Audiosalvestus ja produktsiooni assistent</div>
+      </div>
+      <div class="card">
+        <span class="card-year">2024</span>
+        <div class="card-title">I Lift my eyes to Yeshua | נושא את עיניי אל ישוע</div>
+        <iframe src="https://www.youtube.com/embed/OgHX5XYtLmU" allowfullscreen></iframe>
+        <div class="card-role">Prod Manager, One of the Camera Ops</div>
+      </div>
+    </div>
+
+    <!-- 2023 -->
+    <h2>2023</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Sarah Liberman Samaritan Music Video</div>
+        <span class="card-year">2023</span>
+        <iframe src="https://www.youtube.com/embed/oW7kQyQbOhI" allowfullscreen></iframe>
+        <div class="card-role">Role: teine videooperaator</div>
+      </div>
+      <div class="card">
+        <div class="card-title">David and Goliath Music Video</div>
+        <span class="card-year">2023</span>
+        <iframe src="https://www.youtube.com/embed/r79FybB6RCE" allowfullscreen></iframe>
+        <div class="card-role">Role: teine videooperaator</div>
+      </div>
+    </div>
+
+    <!-- 2022 -->
+    <h2>2022</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">"WAY MAKER" in Hebrew, Arabic & English</div>
+        <span class="card-year">2022</span>
+        <iframe src="https://www.youtube.com/embed/HhbtVCI67pw" allowfullscreen></iframe>
+        <div class="card-role">Role: kraana videooperaator</div>
+      </div>
+      <div class="card">
+        <div class="card-title">"ABOVE ALL" in Hebrew, Arabic & English</div>
+        <span class="card-year">2022</span>
+        <iframe src="https://www.youtube.com/embed/LtcxE4xF5So" allowfullscreen></iframe>
+        <div class="card-role">Role: kraana videooperaator</div>
+      </div>
+    </div>
+
+    <!-- 2021 -->
+    <h2>2021</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Jeremiah Dead sea MV</div>
+        <span class="card-year">2021</span>
+        <iframe src="https://www.youtube.com/embed/mf6DyAy5mBk" allowfullscreen></iframe>
+        <div class="card-role">Role: videooperaator</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Bead Chaim Ad</div>
+        <span class="card-year">2012</span>
+        <iframe src="https://www.youtube.com/embed/qzPfMxRi33s" allowfullscreen></iframe>
+        <div class="card-role">Role: visuaaleffektide liid</div>
+      </div>
+    </div>
+
+    <!-- Podcast -->
+    <h2>Podcast</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Yeshua, Messiah Son of Joseph? - Case for Messiah EP 13</div>
+        <iframe src="https://www.youtube.com/embed/FIePyf1MrRI" allowfullscreen></iframe>
+        <div class="card-role">Live Switching, Camera setup, Audio capture, Running the studio</div>
+      </div>
+      
+    </div>
+
+    <!-- 2020 -->
+    <h2>2020</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Help Holocaust Survivors Live in Dignity (MiniDoc)</div>
+        <iframe src="https://www.youtube.com/embed/aRd1FlAh3FM" allowfullscreen></iframe>
+        <div class="card-role">Role: videooperaator</div>
+      </div>
+      <div class="card">
+        <div class="card-title">How Africa is Changing Farmers</div>
+        <iframe src="https://www.youtube.com/embed/r414f19_g3I" allowfullscreen></iframe>
+        <div class="card-role">Role: Intervjuu videooperaator</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Changing a Continent | Calev Myers Interviews Innovation Africa</div>
+        <iframe src="https://www.youtube.com/embed/hrffbe5Gyrk" allowfullscreen></iframe>
+        <div class="card-role">Maybe we filmed</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Arise</div>
+        <iframe src="https://www.youtube.com/embed/zeYjxs0vj7Y" allowfullscreen></iframe>
+        <div class="card-role">Role: videooperaator</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Arise B2B Summit Highlight</div>
+        <iframe src="https://www.youtube.com/embed/C1BiSgW14zU" allowfullscreen></iframe>
+        <div class="card-role">Role: videooperaator</div>
+      </div>
+    </div>
+
+    <!-- 2019 -->
+    <h2>2019</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Run for Zion Promo video</div>
+        <iframe src="https://www.youtube.com/embed/AZmJVhLFweE" allowfullscreen></iframe>
+        <div class="card-role">Role: Gimbali videooperaator</div>
+      </div>
+    </div>
+
+    <!-- 2018 -->
+    <h2>2018</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Passages Promo</div>
+        <iframe src="https://www.youtube.com/embed/ED2SzTMB9ns" allowfullscreen></iframe>
+        <div class="card-role">Passages Gimbal Cam op</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Passages THE PEOPLE | Israel Explored | Episode 1</div>
+        <iframe src="https://www.youtube.com/embed/bLrgWpdTgoE" allowfullscreen></iframe>
+        <div class="card-role">Roll: Gimbali videooperaator</div>
+      </div>
+    </div>
+
+    <!-- 2017 -->
+    <h2>2017</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Joshua Aaron & Chief Riverwind - EVERY TRIBE</div>
+        <span class="card-year">2017</span>
+        <iframe src="https://www.youtube.com/embed/jpoBc-f4RIc" allowfullscreen></iframe>
+        <div class="card-role">Role: videooperaator</div>
+      </div>
+      <div class="card">
+        <div class="card-title">The Lost Ark - Lühifilm</div>
+        <iframe src="https://www.youtube.com/embed/3Jtt1MVowXw" allowfullscreen></iframe>
+        <div class="card-role">Audio Salvestus, Monteeria Assistent, Näitleja, Filmi ettevalmistus</div>
+      </div>
+    </div>
+
+    <!-- 2016 -->
+    <h2>2016</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Quest for Truth - Israel Palestine Documentary</div>
+        <a href="https://www.g2gmandate.org/Articles/501613/Quest_for_Truth.aspx" class="video-link" target="_blank">View Documentary (External Link)</a>
+        <div class="card-role">Q4T: The Israeli Palestinian Conflict. Second Camera & BROLL</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Quest for Truth - Israel Palestine Documentary (YouTube)</div>
+        <iframe src="https://www.youtube.com/embed/4Ht5JAayYEU" allowfullscreen></iframe>
+        <div class="card-role">Second Camera & BROLL</div>
+      </div>
+    </div>
+
+    <!-- 2015 -->
+    <h2>2015</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Praise to Our God 5 Concert - Odecha BeKahal Rav</div>
+        <iframe src="https://www.youtube.com/embed/ARtq7F6GwN0" allowfullscreen></iframe>
+        <div class="card-role">Live Camera Operator</div>
+      </div>
+    </div>
+
+    <!-- 2014 -->
+    <h2>2014</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card title"
+
+    <!-- 2013 -->
+    <h2>2013</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Tears of Eritrea</div>
+        <iframe src="https://www.youtube.com/embed/e_uUtJNf9m8" allowfullscreen></iframe>
+        <div class="card-role">CoDirector, Camera Op for some scenes, Prod Assist</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Tears Of Eritrea - 4th Semester Documentary</div>
+        <iframe src="https://www.youtube.com/embed/zlTA5h0hGyU" allowfullscreen></iframe>
+        <div class="card-role">CoDirector, Camera Op for some scenes, Prod Assist</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Award Winning Short film - Summer in the Holy Land</div>
+        <iframe src="https://www.youtube.com/embed/KKoGBIN9vD8" allowfullscreen></iframe>
+        <div class="card-role">videooperaator</div>
+      </div>
+    </div>
+
+    <!-- 2012 -->
+    <h2>2012</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Jeremiah Kaufman | IZH</div>
+        <iframe src="https://www.youtube.com/embed/xnir5dzVT5E" allowfullscreen></iframe>
+        <div class="card-role">VFX HUD and other VFX</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Bead Chaim INTL Death To Life WEBHD</div>
+        <iframe src="https://www.youtube.com/embed/-7kX5JR5vrs" allowfullscreen></iframe>
+        <div class="card-role">VFX Tracking, PA</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Be'ad Chaim Ad 2012</div>
+        <iframe src="https://www.youtube.com/embed/qzPfMxRi33s" allowfullscreen></iframe>
+        <div class="card-role">VFX Tracking and Location Scouting</div>
+      </div>
+    </div>
+
+  </section>
+  <footer style="text-align:center;color:#888;padding:2em 0 1em 0;font-size:0.95em;">
+    &copy; 2025 Carl Seiler &mdash; Portfolio Website
+  </footer>
+</body>
+</html>
